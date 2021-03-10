@@ -18,5 +18,10 @@ namespace RSVP
         {
             Response.Write("<hr />Эта страница была загружена " + DateTime.Now.ToString());
         }
+
+        void Session_Start(object sender, EventArgs e)
+        {
+            Application["Visitors"] = long.Parse(Application["Visitors"].ToString()) + 1;
+        }
     }
 }

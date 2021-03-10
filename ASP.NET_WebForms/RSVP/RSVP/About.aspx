@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="About.aspx.cs" Inherits="RSVP.About" %>
-<link rel="stylesheet" type="text/css" href="Styles.css" />
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"> 
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
     <h1>Семинар</h1>
 <h2>Приглашаем на семинар</h2>
 <p>Напоминаем Вам, что если Вы планируете выступить с докладом, то презентация для

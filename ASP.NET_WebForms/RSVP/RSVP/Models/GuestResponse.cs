@@ -5,16 +5,32 @@ using System.Web;
 
 namespace RSVP.Models
 {
+    public class Report
+    {
+        public int ReportId { get; set; }
+        public string NameReport { get; set; }
+        public string Annotation { get; set; }
+
+        public GuestResponse GuestRes { get; set; }
+
+        public Report() { }
+        public Report(string title, string annot)
+        {
+            NameReport = title;
+            Annotation = annot;
+        }
+    }
     public class GuestResponse
     {
-        public int GuestResponseIdId { get; set; }
+        public int GuestResponseId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
         public bool? WillAttend { get; set; }
         public DateTime Rdata { get; set; }
 
-        public GuestResponse() { }
+        public virtual List<Report> Reports { get; set; }
+        
         public GuestResponse(string name, string email, string phone, bool? willattend)
         {
             Name = name;
@@ -23,6 +39,6 @@ namespace RSVP.Models
             WillAttend = willattend;
             Rdata = DateTime.Now;
         }
-
+        public GuestResponse() { }
     }
 }
