@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 
 namespace RSVP.Models
 {
@@ -22,6 +23,7 @@ namespace RSVP.Models
     }
     public class GuestResponse
     {
+        [System.ComponentModel.DataAnnotations.Key]
         public int GuestResponseId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
@@ -38,6 +40,8 @@ namespace RSVP.Models
             Phone = phone;
             WillAttend = willattend;
             Rdata = DateTime.Now;
+
+            Reports = new List <Report>();
         }
         public GuestResponse() { }
     }

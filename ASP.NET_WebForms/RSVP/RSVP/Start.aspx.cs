@@ -12,7 +12,7 @@ namespace RSVP
         protected void Page_Load(object sender, EventArgs e)
         {
             ScriptManager scriptManager = ScriptManager.GetCurrent(this.Page);
-            scriptManager.RegisterPostBackControl(this.Timer1);
+            scriptManager.RegisterPostBackControl(this.Timer2);
         }
     }
 }

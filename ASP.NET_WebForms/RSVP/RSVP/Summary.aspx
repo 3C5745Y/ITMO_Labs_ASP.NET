@@ -3,8 +3,6 @@
  <asp:Content ID="MainContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Участники семинара</title>
-     <link rel="stylesheet" href="Styles.css" />
-   
         <div>
             <h2>Приглашения</h2>
     <h3>Выступающие с докладом: </h3>
