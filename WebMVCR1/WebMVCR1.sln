@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVCR1", "WebMVCR1\WebMVCR1.csproj", "{5309E010-3C99-4D6E-8ECF-370445814582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5309E010-3C99-4D6E-8ECF-370445814582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5309E010-3C99-4D6E-8ECF-370445814582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5309E010-3C99-4D6E-8ECF-370445814582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5309E010-3C99-4D6E-8ECF-370445814582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E5EF605-7292-4DD3-91CC-23CC169D001B}
+	EndGlobalSection
+EndGlobal

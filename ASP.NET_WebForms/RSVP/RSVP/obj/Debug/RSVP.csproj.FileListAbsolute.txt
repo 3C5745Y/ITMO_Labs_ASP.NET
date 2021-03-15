@@ -40,5 +40,4 @@
 \\Mac\Home\Documents\Study\8_ASP.NET\ITMO_Labs_ASP.NET\ASP.NET_WebForms\RSVP\RSVP\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
 \\Mac\Home\Documents\Study\8_ASP.NET\ITMO_Labs_ASP.NET\ASP.NET_WebForms\RSVP\RSVP\bin\EntityFramework.dll
 \\Mac\Home\Documents\Study\8_ASP.NET\ITMO_Labs_ASP.NET\ASP.NET_WebForms\RSVP\RSVP\bin\EntityFramework.SqlServer.dll
-\\Mac\Home\Documents\Study\8_ASP.NET\ITMO_Labs_ASP.NET\ASP.NET_WebForms\RSVP\RSVP\bin\EntityFramework.xml
 \\Mac\Home\Documents\Study\8_ASP.NET\ITMO_Labs_ASP.NET\ASP.NET_WebForms\RSVP\RSVP\bin\EntityFramework.SqlServer.xml
