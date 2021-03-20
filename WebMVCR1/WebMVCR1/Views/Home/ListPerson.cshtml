@@ -1,17 +1,9 @@
 ﻿@model WebMVCR1.Models.PersonRepository
 
 @{
-    Layout = null;
+    ViewBag.Title = "ListPerson";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ListPerson</title>
-</head>
-<body>
     <div>
         <h3>Список участников</h3>
         <p>Персон всего @ViewBag.Count</p>
@@ -25,5 +17,4 @@
             @Html.ActionLink("На главную","Index")
         </p>
     </div>
-</body>
-</html>
+

@@ -1,16 +1,8 @@
 ﻿
 @{
-    Layout = null;
+    ViewBag.Title = "Главная";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
     <div>
         @ViewBag.Greeting, спасибо, что зашли и @ViewData["Mes"]
         <p>
@@ -20,5 +12,4 @@
             @Html.ActionLink("Посмотрите, кто уже здесь", "OutputData")
         </p>
     </div>
-</body>
-</html>
+
